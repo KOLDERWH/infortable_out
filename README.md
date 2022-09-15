@@ -1,2 +1,2 @@
-# infortable_out
 # goout table 
+for freedom
