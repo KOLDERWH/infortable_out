@@ -3,42 +3,26 @@
 
 <head>
   <meta charset=utf-8>
-  <title>扫码验证 - 疫情期间学生请假外出验证</title>
+  <title>表单填写与审批::加载中</title>
   <meta name=viewport
         content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <meta name=apple-mobile-web-app-capable
-        content=yes>
-  <meta http-equiv=Pragma
-        content=no-cache>
-  <meta http-equiv=Expires
-        content=-1>
-  <meta name=keywords
-        content=InfoPlus>
-  <meta name=renderer
-        content=webkit>
   <meta http-equiv=X-UA-Compatible
         content="IE=Edge">
-  <meta itemscope
-        content=nhYseAqDvURVS9HvzDSJugomeNs3oMSf>
   <meta name=theme-color
         content=#039be5>
   <meta name=format-detection
         content="telephone=no">
-  <link rel="icon"
-        type="image/png"
-        href="./favicon.png">
-
-
   <style>
     @font-face {
-      font-family: 'icomoon';
-      src: url(data:font/woff;base64,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) format('woff');
+      font-family: "icomoon";
+      src: url(icon.ttf) format("truetype");
       font-weight: normal;
       font-style: normal
     }
 
     i {
-      font-family: 'icomoon' !important;
+      font-family: "icomoon" !important;
+      speak: none;
       font-style: normal;
       font-weight: normal;
       font-variant: normal;
@@ -48,119 +32,19 @@
     }
 
     .i-icon-menu:before {
-      content: "\e606"
+      content: ""
     }
 
     .i-icon-more-vert:before {
-      content: "\e608"
+      content: ""
     }
 
-    .i-icon-publish:before {
-      content: "\e908"
+    .infoplus_control {
+      font-family: SimSun, "Songti SC", "Microsoft YaHei", SimHei, "Heiti SC", sans-serif
     }
 
-    .i-icon-angle-double-down:before {
-      content: "\f103"
-    }
-
-    .infoplus_labelControl {
-      color: #000000
-    }
-
-    div.infoplus_repeatingSection {
-      border: 1px solid transparent;
+    .infoplus_iframeControlContainer {
       position: relative
-    }
-
-    .infoplus_repeatParentElement {
-      position: relative
-    }
-
-    div.infoplus_repeatSectionExpandButton {
-      width: 16px;
-      height: 16px;
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      cursor: pointer
-    }
-
-    div.infoplus_repeatSection_shrink {
-      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKfSURBVHjaYvz//z8DJQAggJgYKAQAAcQCIhhNZ2HK/P/PyfDj7y5GRkbO/+zMdgxMzN8YGFHt+38ykQEggKAijKj4H5B6873Sy0bWJsJT2Zjh3bc2BhZORgY+CQYGPkkEBgKAAMLuhR9/zISFOTO7Sq0YAqItGXjE+FMYfv12YQCFFzIGAoAAwjTg3382hu+/pzcWmokwiQszXPrCy6DjZsXNyMA4GSjHC9b47y8EAwFAAEEN+A/Bf4Bu//yzzd9dycg7QJdh4zUGhgcvGBiYJVUZ2OVU1Rn+/etj4OBhYBCUZWAQVgTrBAggVBf8/usuJcaVU5ZvxXDsBQvD+dvfGW7f/8pw5zUTwy8JPQYGLt5kBiaWCAZ2bgYGdl6wFoAAghjACAy4v/+FmH//7ajIs2T/wCfMsPfGP4aDG44x3D16goGH6R/DPxZuBiYpTaBCxiag8+UY/v8DawUIIIgBf4HOf/+9LshbzUDDUoNh700GhvNH7zC8fPDi/K+PH48rMzxiEAFayCIozsAuLKUKdGkDAxNEK0AAQcjPP7wUlARzgmMtGU48Y2K4cv0jw7VjV78zsLJmff7Dlnzl8pMPSkLfGPiALpdVk2Lg5OdOZPjPFg7SChBAYAP4+Tn7s/IdmN/x8DFcuv+f4cze8ww/v36bxsDKfIKB+f/1Z69/9b2+/4RBXvQfg4YKK4OVlTgDGydLL0gvQACBUyK/GI/ak68sDDe2v2C4dfUlw7unL88y8HA3gdMVnxhIWf/DJz9c//O8teVl42NgYWZm4OTjkgbpBQggRlBmYjWbfYaZkVX7DzM7w18mlo8MLKyRQD/uB8e5sBIDOMCY2HQZ2bi2srJziDKwcjL8YWG//3cquxZAADFSmhsBAoji3AgQYAAsQtEvrVL0fwAAAABJRU5ErkJggg==) no-repeat
-    }
-
-    input[type="radio"].infoplus_readonly {
-      background-color: #E6E6E6
-    }
-
-    div.infoplus_fileControl .display {
-      background-color: #F5F5F5;
-      border: 1px solid #DCDCDC;
-      font-weight: bold;
-      max-width: 448px;
-      padding: 4px 4px 4px 8px;
-      text-align: left;
-      position: relative
-    }
-
-    div.infoplus_fileControl .uploadFileSize {
-      color: #777777;
-      display: inline-block;
-      padding: 3px 0;
-      font-weight: bold
-    }
-
-    div.infoplus_fileControl .uploadFileName {
-      display: inline-block;
-      overflow: hidden;
-      padding: 3px 0;
-      text-overflow: ellipsis;
-      vertical-align: bottom;
-      white-space: nowrap;
-      font-weight: bold;
-      word-wrap: normal
-    }
-
-    label.infoplus_radioLabel {
-      cursor: pointer
-    }
-
-    .infoplus_radioControl.infoplus_readonly+label.infoplus_radioLabel {
-      opacity: 0.4
-    }
-
-    .infoplus_radioControl.infoplus_readonly.checked+label.infoplus_radioLabel {
-      opacity: 1
-    }
-
-    div.infoplus_labelControl {
-      display: inline-block;
-      word-break: break-all;
-      border: none !important
-    }
-
-    div.infoplus_labelControlContainer {
-      display: inline-block
-    }
-
-    .opacity5 {
-      -moz-opacity: .50;
-      opacity: .50
-    }
-
-    input::-webkit-input-placeholder,
-    textarea::-webkit-input-placeholder {
-      color: #636363
-    }
-
-    input::-moz-placeholder,
-    textarea::-moz-placeholder {
-      color: #636363
-    }
-
-    input:-moz-placeholder,
-    textarea:-moz-placeholder {
-      color: #636363
     }
 
     * {
@@ -175,10 +59,12 @@
 
     body,
     div,
+    p,
     h1,
     ul,
     li,
-    table {
+    table,
+    img {
       margin: 0;
       padding: 0;
       border: none
@@ -186,33 +72,25 @@
 
     body {
       font-size: 14px !important;
-      font-family: SimSun, 'Songti SC', 'Microsoft YaHei', SimHei, 'Heiti SC', sans-serif !important;
+      font-family: SimSun, "Songti SC", "Microsoft YaHei", SimHei, "Heiti SC", sans-serif !important;
       background-color: #E5E5E5 !important;
       line-height: normal;
       margin: 0 !important;
       position: relative
     }
 
-    td {
-      text-align: left
+    button {
+      font-family: SimSun, "Songti SC", "Microsoft YaHei", SimHei, "Heiti SC", sans-serif
     }
 
-    .clear {
-      content: "";
-      display: table;
-      clear: both;
-      visibility: hidden
+    td {
+      text-align: left
     }
 
     tbody {
       border-color: inherit;
       display: table-row-group;
       vertical-align: middle
-    }
-
-    a {
-      color: #0560a6;
-      text-decoration: none
     }
 
     a:hover {
@@ -225,31 +103,23 @@
     }
 
     #renderContent_holder {
-      /* padding-bottom: 15px; */
-      /* text-align: center; */
-      /* padding-top: 105px;
-      background-color: #f3f3f3 */
-      background-color: #e5e5e5;
-      padding-top: 105px;
       padding-bottom: 15px;
-      text-align: center;
+      text-align: center
     }
 
     #header_holder {
-      position: fixed;
-      top: 0;
       left: 0;
-      height: 96px;
-      width: 100%;
-      /* left: 0;
       right: 0;
-      /* position: fixed; */
-      /* z-index: 1; */
+      position: fixed;
+      z-index: 1;
       min-width: 310px
     }
 
+    #title_holder {
+      color: white
+    }
+
     #command_holder {
-      height: 48px;
       width: 100%;
       background-color: #f5f5f5;
       -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
@@ -288,12 +158,12 @@
       border-collapse: separate
     }
 
-    .color_b2 {
-      color: #0560A6
+    .color_o1 {
+      color: #FAAC18
     }
 
-    .color_b3 {
-      color: #009966
+    .color_b2 {
+      color: #0560A6
     }
 
     div.form_remark_holder {
@@ -302,10 +172,10 @@
       color: #0560A6
     }
 
-    /* div.form_remark_holder.shadow {
+    div.form_remark_holder.shadow {
       -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
       -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12)
-    } */
+    }
 
     div.form_remark_holder ul {
       background-color: #ffffff;
@@ -316,7 +186,6 @@
 
     div.form_remark_holder ul li {
       font-size: 12px;
-      border-bottom: 1px solid gray;
       text-align: left;
       padding-top: 8px;
       padding-bottom: 8px
@@ -336,156 +205,6 @@
       top: 2px
     }
 
-    span.form_remark_time {
-      padding-left: 5px;
-      color: gray;
-      float: right
-    }
-
-    div.form_milestone_holder {
-      text-align: center
-    }
-
-    div.form_milestone_holder_wrap_outer {
-      display: inline-block;
-      background-color: white;
-      margin: 2px auto 10px auto;
-      padding: 0;
-      font-size: 14px;
-      font-weight: bold;
-      color: white;
-      text-align: center
-    }
-
-    /* div.form_milestone_holder_wrap_outer.shadow {
-      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
-      -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12)
-    } */
-
-    .form_milestone_view {
-      height: 56px
-    }
-
-    .form_milestone_step {
-      top: 0;
-      height: 56px;
-      display: inline-block;
-      margin: 0;
-      z-index: 1;
-      padding: 0 4px 0 6px;
-      /* float: left; */
-      list-style: none
-    }
-
-    .form_milestone_step.first {
-      border-bottom-left-radius: 2px;
-      border-top-left-radius: 2px;
-      padding: 0 0 0 10px
-    }
-
-    .form_milestone_step.last {
-      border-bottom-right-radius: 2px;
-      border-top-right-radius: 2px;
-      padding: 0 10px 0 6px
-    }
-
-    @media screen and (-ms-high-contrast: active),
-    (-ms-high-contrast: none) {
-      .form_milestone_step.first {
-        border-bottom-left-radius: 0;
-        border-top-left-radius: 0
-      }
-
-      .form_milestone_step.last {
-        border-bottom-right-radius: 0;
-        border-top-right-radius: 0
-      }
-    }
-
-    .form_milestone_step .content {
-      clear: both;
-      line-height: 18px;
-      cursor: pointer;
-      position: relative
-    }
-
-    .form_milestone_step .content_name {
-      letter-spacing: 2px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden
-    }
-
-    .form_milestone_step .floater {
-      float: left;
-      height: 50%;
-      width: 100%
-    }
-
-    .form_milestone_step .floater.singleLine {
-      margin-bottom: -9px
-    }
-
-    .form_milestone_step .floater.green {
-      background-color: #4CAF50
-    }
-
-    .form_milestone_step.green {
-      background-color: #4CAF50
-    }
-
-    .form_milestone_step_arrow_li {
-      float: left;
-      height: 56px;
-      position: relative;
-      list-style: none;
-      z-index: 0
-    }
-
-    .form_milestone_step_arrow_li.green {
-      background-color: #4CAF50
-    }
-
-    .form_milestone_step_arrow_wrap {
-      position: relative;
-      width: 20px;
-      height: 56px;
-      overflow-y: hidden
-    }
-
-    .form_milestone_step_arrow {
-      top: -4px;
-      border-style: solid;
-      border-width: 32px 0 32px 17px;
-      position: absolute;
-      /* -webkit-transform: rotate(360deg) */
-    }
-
-    .form_milestone_step_arrow.green {
-      border-color: transparent transparent transparent #4CAF50
-    }
-
-    .form_milestone_step_arrow.white {
-      border-width: 34px 0 34px 18px;
-      border-color: transparent transparent transparent white;
-      top: -6px;
-      left: 2px;
-      z-index: -1
-    }
-
-    span.moreHistory {
-      background-color: #FFFFFF;
-      display: inline;
-      padding: 1px 8px 1px 8px;
-      position: relative;
-      top: -7px;
-      cursor: pointer
-    }
-
-    div.lastMore {
-      padding-bottom: 15px
-    }
-
     #div_loader {
       position: fixed;
       top: 0;
@@ -501,6 +220,15 @@
       cursor: pointer
     }
 
+    /*!
+     * ClockPicker v0.0.7 for jQuery (http://weareoutman.github.io/clockpicker/)
+     * Copyright 2014 Wang Shenwei.
+     * Licensed under MIT (https://github.com/weareoutman/clockpicker/blob/gh-pages/LICENSE)
+     *
+     * Bootstrap v3.1.1 (http://getbootstrap.com)
+     * Copyright 2011-2014 Twitter, Inc.
+     * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+     */
     body {
       overflow-x: hidden;
       background-color: #f3f3f3 !important
@@ -544,31 +272,13 @@
       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16), 0 1px 4px 0 rgba(0, 0, 0, 0.12)
     }
 
-    div.form_milestone_holder {
-      overflow: hidden;
-      height: 56px;
-      margin: 0 auto 10px auto;
-      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
-      -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12)
+    #title_holder {
+      height: 46px
     }
 
-    div.form_milestone_holder_wrap_inner {
-      position: relative;
-      top: 10px;
-      overflow-x: auto
-    }
-
-    div.form_milestone_holder_wrap_outer {
-      position: relative;
-      top: -17px;
-      height: 66px
-    }
-
-    div.form_milestone_holder_wrap_outer.shadow {
-      -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
-      -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
-      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16), 0 1px 2px 0 rgba(0, 0, 0, 0.12)
+    #renderContent_holder {
+      padding-top: 105px;
+      background-color: #f3f3f3
     }
 
     div.infoplus_view {
@@ -579,17 +289,13 @@
       position: relative
     }
 
-    #title_holder {
-      color: white;
-      height: 46px;
-      background-color: #4CAF50;
+    #title_holder.todo {
+      background-color: #039be5
     }
 
     #title_icon {
-      height: 46px;
-      line-height: 46px;
-      /* display: inline-block; */
-      float: left;
+      display: inline-block;
+      /* float: left; */
       width: 36px;
       font-size: 24px;
       color: white;
@@ -597,19 +303,7 @@
       cursor: pointer
     }
 
-    #form_command_bar {
-      /* position: fixed; */
-      background-color: #f5f5f5;
-      left: 0;
-      right: 0;
-      height: 48;
-      z-index: 3;
-      min-width: 310px;
-      /* background-color: #f5f5f5; */
-
-      /* min-width: 280px; */
-      /* position: relative */
-    }
+    #form_command_bar {}
 
     #command_bar_title_icon {
       float: left;
@@ -622,24 +316,23 @@
       position: relative
     }
 
-    #command_bar_title_icon.complete {
-      background-color: #4CAF50
+    #command_bar_title_icon.todo {
+      background-color: #039be5
     }
 
     #form_command_bar li.no_action {
-      margin: 0 0 0 7px;
+      margin: 4px 2px;
+      padding: 4px 0 0 5px;
       float: left;
       position: relative;
       text-align: left;
       list-style: none;
       color: #009966;
       font-size: 14px;
-      font-weight: bold;
-      line-height: 48px;
+      font-weight: bold
     }
 
     #title_content {
-      line-height: 46px;
       padding-left: 5px;
       font-size: 14px;
       color: white;
@@ -680,17 +373,14 @@
     }
 
     li.tool_button {
-      margin: 4px 2px;
+      margin: 2px 2px;
       position: relative;
       text-align: center;
       list-style: none;
-      float: right;
+      float: right
     }
 
     a.tool_button {
-      line-height: 34px;
-      padding: 3px 5px;
-      font-size: 1.6rem;
       display: inline-block;
       margin-bottom: 0;
       text-align: center;
@@ -706,27 +396,23 @@
 
     a.tool_button:hover {
       display: inline-block;
-      /* *display: inline; */
+      *display: inline;
       padding: 3px;
       margin-bottom: 0;
-      /* *margin-left: .3em; */
-      /* line-height: 18px;
-      *line-height: 18px; */
+      *margin-left: .3em;
+      line-height: 18px;
+      *line-height: 18px;
       text-align: center;
       vertical-align: middle;
       cursor: pointer;
-      /* border: 1px solid #c5c5c5; */
+      border: 1px solid #c5c5c5;
       text-decoration: none;
       -webkit-border-radius: 4px;
       -moz-border-radius: 4px;
       border-radius: 4px;
-      /* background-color: #F8F8F8;
-      *background-color: #F8F8F8; */
-      color: #4a4a4a;
-      line-height: 34px;
-      padding: 3px 5px;
-      border: 1px solid transparent;
-      background-color: transparent
+      background-color: #F8F8F8;
+      *background-color: #F8F8F8;
+      color: #4a4a4a
     }
 
     #div_footer_copy_content {
@@ -736,38 +422,7 @@
     }
 
     #div_footer_copy_content span.copyright {
-      font-family: 'Microsoft YaHei', PingFangSC-Regular, SimHei, 'Heiti SC', sans-serif
-    }
-
-    .infoplus_popMenu {
-      background-color: White;
-      position: absolute;
-      border: 1px solid #9d9da1;
-      padding: 3px;
-      line-height: 20px;
-      cursor: pointer;
-      -ms-opacity: 0.9;
-      opacity: 0.9;
-      height: 31px;
-      text-align: left;
-      font-family: SimSun, 'Songti SC', 'Microsoft YaHei', SimHei, 'Heiti SC', sans-serif;
-      font-size: 12px;
-      font-weight: normal;
-      z-index: 1
-    }
-
-    .infoplus_popMenu.left {
-      left: -1px
-    }
-
-    .infoplus_popMenu.top {
-      top: auto;
-      bottom: 100%
-    }
-
-    .infoplus_popMenu:hover {
-      -ms-opacity: 1;
-      opacity: 1
+      font-family: "Microsoft YaHei", PingFangSC-Regular, SimHei, "Heiti SC", sans-serif
     }
 
     div.infoplus_view_wrap_outer {
@@ -786,8 +441,36 @@
       margin-bottom: 10px
     }
 
-    .infoplus_popMenu {
-      white-space: nowrap
+    /* li.tool_button {} */
+
+    a.tool_button {
+      line-height: 34px;
+      padding: 3px 5px;
+      font-size: 1.6rem
+    }
+
+    a.tool_button:hover {
+      line-height: 34px;
+      padding: 3px 5px;
+      border: 1px solid transparent;
+      background-color: transparent
+    }
+
+    #title_icon {
+      height: 46px;
+      line-height: 46px
+    }
+
+    #command_holder {
+      height: 48px
+    }
+
+    #form_command_bar {
+      height: 48px;
+      background-color: #f5f5f5;
+      padding-right: 3px;
+      min-width: 280px;
+      position: relative
     }
 
     #command_bar_title_icon {
@@ -796,19 +479,21 @@
       line-height: 48px
     }
 
+    #form_command_bar li.no_action {
+      height: 38px;
+      line-height: 32px
+    }
+
+    #title_content {
+      line-height: 46px
+    }
+
     #title_description {
       line-height: 45px
     }
 
     #title_description_short {
       line-height: 45px
-    }
-
-    TABLE.xdLayout TD {
-      BORDER-TOP: medium none;
-      BORDER-RIGHT: medium none;
-      BORDER-BOTTOM: medium none;
-      BORDER-LEFT: medium none
     }
 
     BODY {
@@ -827,9 +512,10 @@
       BORDER-RIGHT-COLOR: #d8d8d8
     }
 
-    .xdRepeatingSection {
-      margin: 0px 0px 0px 0px;
-      padding: 0px 0px 0px 0px
+    P {
+      FONT-SIZE: 11pt;
+      MARGIN-TOP: 0px;
+      COLOR: #354d3f
     }
 
     H1 {
@@ -871,118 +557,92 @@
     }
 
     TD.xdTitleCell {
-      TEXT-ALIGN: center;
-      BACKGROUND-COLOR: #ffffff
+      TEXT-ALIGN: center
     }
 
     TD.xdTableContentCell {
       BACKGROUND-COLOR: #ffffff
     }
   </style>
-
-  <style>
-    #div_loader_content {
-      position: fixed;
-      margin-top: -10px;
-      text-align: center;
-      background-color: #e5e5e5
-    }
-
-    #div_loader {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-color: #e5e5e5
-    }
-
-    #div_loader_progress {
-      margin-top: 2px;
-      background-color: #B6CEF1;
-      overflow: hidden;
-      transition: all 0.2s;
-      height: 4px;
-      opacity: 1;
-    }
-
-    #div_loader_progress_percent {
-      background-color: #478AF1;
-      height: 4px;
-      position: relative;
-      transition: all 0.1s;
-    }
-
-    #div_loader_text {
-      display: inline-block;
-      position: relative
-    }
-
-    #help_content {
-      position: fixed;
-      z-index: 10001;
-      cursor: pointer
-    }
-
-    #div_loader_text {
-      font-size: 1.2rem
-    }
-
-    #div_loader_content {
-      left: 15%;
-      width: 80%;
-      margin-left: -5%;
-      top: 45%
-    }
-  </style>
-
   <style>
     .sf-hidden {
       display: none !important
     }
-
-    button.infoplus_buttonControl[disabled] {
-      color: #333333;
-      /* background-color: #e6e6e6; */
-      *background-color: #d9d9d9;
-    }
-
-    button.infoplus_buttonControl[disabled] {
-      cursor: default;
-      /* background-color: #e6e6e6; */
-      background-image: none;
-      opacity: 0.65;
-      filter: alpha(opacity=65);
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
-      box-shadow: none;
-    }
-
-    span.blockingNoText {
-      background: #AFC5DE url(/ico_loading.gif) no-repeat center center;
-      height: 100%;
-      font-size: 10.5pt;
-      font-weight: bold;
-      color: #ffffff;
-      display: inline-block;
+  </style>
+  <style>
+    img[src="data:,"],
+    source[src="data:,"] {
+      display: none !important
     }
   </style>
-  <script src="/jquery-3.6.0.min.js"></script>
+
+  <style>
+    #command_holder li.command_button {
+      height: 38px;
+    }
+
+    #command_holder li.command_button {
+      height: 26px;
+      margin: 4px 2px 4px 6px;
+      float: left;
+      position: relative;
+      text-align: left;
+      list-style: none;
+    }
+
+    #command_holder .command_button_content {
+      font-weight: bold;
+      min-width: 118px;
+      display: inline-block;
+      *display: inline;
+      padding: 3px 8px;
+      margin-bottom: 0;
+      *margin-left: .3em;
+      font-size: 14px;
+      line-height: 20px;
+      *line-height: 20px;
+      color: #009966;
+      text-align: center;
+      text-shadow: 0 1px 1px rgb(255 255 255 / 75%);
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #FFFFFF;
+      *background-color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      *zoom: 1;
+      -webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+      -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
+      border-color: #c5c5c5;
+      border-color: rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.15);
+    }
+
+    #command_holder .command_button_content {
+      width: 100px;
+      min-width: 100px;
+      padding: 3px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      line-height: 32px;
+    }
+
+    #command_holder li.command_button~li.command_button {
+      margin: 4px 2px;
+    }
+
+    #command_holder .command_button_content.kill {
+      color: #00B0FF;
+    }
+  </style>
 </head>
 
 <body>
   <div id=help_content></div>
-  <div id=div_loader>
-    <div id=div_loader_content>
-      <div id=div_loader_text>
-        <span class=content
-              id="progressText">正在加载页面(<span id="progress">0</span>%)</span>
-      </div>
-      <div id=div_loader_progress>
-        <div id=div_loader_progress_percent
-             style="right:100%"></div>
-      </div>
-    </div>
+  <div id=div_loader
+       style=display:none>
 
   </div>
   <div id=form_do_action_dialog
@@ -991,1420 +651,179 @@
 
   </div>
   <div id=div_render_container
-       style=display:none>
+       style=display:block>
     <form id=renderForm>
       <div id=div_content
            class=div_content>
         <div id=header_holder
-             style="top:0px ;z-index:3">
+             style=top:0px>
           <div id=title_holder
-               class=complete>
+               class=todo>
             <div id=title_icon
                  class=title_icon><i class=i-icon-menu></i></div>
             <div id=title_content
-                 style=max-width:290px>
-              <nobr>学生请假申请:申请人(已完成)</nobr>
+                 style=max-width:253px>
+              <nobr class="title"></nobr>
             </div>
             <div>
-              <div id=title_description
-                   style=display:none>流水号:1<span class="waterNum"></span>,主管部门:公共服务,联系方式:025-58731542</div>
+              <div id=title_description>流水号:<span class="water"></span></div>
               <div id=title_description_short
-                   style=display:block>流水号:1<span class="waterNum"></span></div>
+                   style=display:none>流水号:<span class="water"></span></div>
             </div>
           </div>
 
           <div id=command_holder>
             <div class="clear sf-hidden"></div>
-
-            <div id="command_bar_title_icon"
-                 class="title_icon complete"
-                 style="display: none;"><i class="i-icon-menu"></i></div>
-
-            <!-- <div id=command_bar_title_icon
-                 class="title_icon complete"><i class=i-icon-menu></i></div> -->
-
-
+            <div id=command_bar_title_icon
+                 class="title_icon todo"
+                 style=display:none></div>
             <ul id=form_command_bar>
-              <li class="command_menu btn-group hide sf-hidden"
-                  id=command_menu>
-              <li class=no_action>此任务已处理,您无需任何操作
+              <li class="command_button jx"
+                  style="display: none"><a class="command_button_content">
+                  <nobr>上传核酸报告</nobr>
+                </a></li>
+              <li class="command_button kill jx"
+                  style="display: none"><a class="command_button_content kill"
+                   name="infoplus_action_2776_kill"
+                   id="infoplus_action_2776_kill">
+                  <nobr>终止</nobr>
+                </a></li>
+              <li class=no_action
+                  id="noAction"
+                  style="display: none">您无需任何操作</li>
               <li class=tool_button><a id=FormCommandMore
-                   class=tool_button><i class=i-icon-more-vert></i></a>
-
-              <li class=tool_button><a id="FormCommandGoTop"
-                   class="tool_button"
-                   href="#"
-                   style="display: none;"><i class="i-icon-publish"></i></a>
+                   class=tool_button
+                   href=#><i class=i-icon-more-vert></i></a>
             </ul>
           </div>
         </div>
         <div id=renderContent_holder>
-          <div id="nav_menu"
-               style="top: 94px; display: none;">
-            <ul class="nav_menu_group">
-              <li id="nav_menu_history"><span class="menu_icon menu_icon_history"><i
-                     class="i-icon-history"></i></span><span class="menu_text">历史</span></li>
-              <li id="nav_menu_save"><span class="menu_icon menu_icon_save disabled"><i
-                     class="i-icon-save"></i></span><span class="menu_text">保存</span></li>
-              <li id="nav_menu_print"><span class="menu_icon menu_icon_print disabled"><i
-                     class="i-icon-print"></i></span><span class="menu_text">打印</span></li>
-              <li id="nav_menu_download"><span class="menu_icon menu_icon_download disabled"><i
-                     class="i-icon-cloud-download"></i></span><span class="menu_text">下载</span></li>
-              <li id="nav_menu_instruction"><span class="menu_icon menu_icon_instruction"><i
-                     class="i-icon-local-library"></i></span><span class="menu_text">填表说明</span></li>
-            </ul>
-            <ul class="nav_menu_group">
-              <li class="nav_menu_line"></li>
-            </ul>
-            <ul class="nav_menu_group">
-              <li id="nav_menu_help"><span class="menu_icon menu_icon_help"><i class="i-icon-help"></i></span><span
-                      class="menu_text">帮助</span></li>
-            </ul>
-          </div>
-          <div id=form_milestone_holder
-               class="form_milestone_holder round-corner"
-               style=visibility:visible;width:100vw>
-            <div class="form_milestone_holder_wrap_outer shadow round-corner"
-                 style=width:100vw>
-              <div class=form_milestone_holder_wrap_inner>
-                <ul class=form_milestone_view
-                    style="width:100vw;display: flex">
-                  <li class="form_milestone_step green first"
-                      style="flex-grow: 1">
-                    <div class="floater green singleLine"></div>
-                    <div class=content>
-                      <div class=content_name>填写申请</div>
-                    </div>
-                  <li class="form_milestone_step_arrow_li green">
-                    <div class=form_milestone_step_arrow_wrap>
-                      <div class="form_milestone_step_arrow green"></div>
-                      <div class="form_milestone_step_arrow white"></div>
-                    </div>
-                  <li class="form_milestone_step green"
-                      style="flex-grow: 1">
-                    <div class="floater green singleLine"></div>
-                    <div class=content>
-                      <div class=content_name>辅导员审核</div>
-                    </div>
-                  <li class="form_milestone_step_arrow_li green">
-                    <div class=form_milestone_step_arrow_wrap>
-                      <div class="form_milestone_step_arrow green"></div>
-                      <div class="form_milestone_step_arrow white"></div>
-                    </div>
-                  <li class="form_milestone_step green last"
-                      style="flex-grow: 1">
-                    <div class="floater green singleLine"></div>
-                    <div class=content>
-                      <div class=content_name>完成（审核通过）</div>
-                    </div>
-                </ul>
-                <div class=clear
-                     style=height:10px></div>
-              </div>
-            </div>
-          </div>
+          <div id=nav_menu
+               style=display:none;top:94px></div>
+
 
           <div id=render_holder>
             <div id=form_holder
-                 style=width:100vw;display:block>
+                 style=width:394px;display:block>
               <div class=infoplus_view_wrap_outer>
                 <div class=infoplus_view_wrap_inner>
-                  <div id=infoplus_view_3589_0
+                  <div id=infoplus_view_2450_0
                        class=infoplus_view>
+                    <div align=center></div>
+                    <div align=center></div>
                     <div align=center>
                       <table style=BORDER-TOP-STYLE:none;WORD-WRAP:break-word;BORDER-LEFT-STYLE:none;WIDTH:360px;BORDER-COLLAPSE:collapse;TABLE-LAYOUT:fixed;BORDER-BOTTOM-STYLE:none;BORDER-RIGHT-STYLE:none
                              class=xdFormLayout>
                         <colgroup>
-                          <col style=WIDTH:360px
-                               width=360>
+                          <col width=360
+                               style=WIDTH:360px>
                         <tbody>
                           <tr class=xdTitleRow>
                             <td class=xdTitleCell
-                                style="BORDER-TOP:#bfbfbf 1pt;BORDER-RIGHT:#bfbfbf 1pt;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#000000 1pt;PADDING-BOTTOM:10px;PADDING-TOP:10px;PADDING-LEFT:10px;BORDER-LEFT:#bfbfbf 1pt;PADDING-RIGHT:10px">
-                              <h1 align=center><strong>
-                                  <font color=#0070c0>学生请假申请</font>
-                                </strong>
-                              </h1>
-                              <div align=center>&nbsp;</div>
+                                style="BORDER-TOP:#000000 1pt;BORDER-RIGHT:#808080 6pt;VERTICAL-ALIGN:top;BORDER-BOTTOM:#808080 6pt;PADDING-BOTTOM:10px;PADDING-TOP:10px;PADDING-LEFT:10px;BORDER-LEFT:#808080 6pt;PADDING-RIGHT:10px;BACKGROUND-COLOR:#ffffff">
+                              <h1 align=left><img border=0
+                                     src="logo.png"
+                                     id="logo"
+                                     style=HEIGHT:67px;WIDTH:223px></h1>
                           <tr class=xdTableContentRow>
                             <td class=xdTableContentCell
-                                style="BORDER-TOP:#000000 1pt;BORDER-RIGHT:#bfbfbf 1pt;BORDER-BOTTOM:#bfbfbf 1pt;PADDING-BOTTOM:10px;PADDING-TOP:10px;PADDING-LEFT:10px;BORDER-LEFT:#bfbfbf 1pt;PADDING-RIGHT:10px"
-                                valign=top>
-                              <div align=center>
-                                <table style="WORD-WRAP:break-word;BORDER-TOP:medium none;BORDER-RIGHT:medium none;WIDTH:338px;BORDER-COLLAPSE:collapse;TABLE-LAYOUT:fixed;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none"
-                                       class=xdLayout
+                                style="BORDER-TOP:#808080 6pt;BORDER-RIGHT:#bfbfbf 1pt;VERTICAL-ALIGN:top;BORDER-BOTTOM:#bfbfbf 1pt;PADDING-BOTTOM:0px;PADDING-TOP:0px;PADDING-LEFT:0px;BORDER-LEFT:#bfbfbf 1pt;PADDING-RIGHT:0px">
+                              <div align=left>
+                                <table border=1
                                        bordercolor=buttontext
-                                       border=1>
+                                       style="WORD-WRAP:break-word;BORDER-TOP:medium none;BORDER-RIGHT:medium none;WIDTH:358px;BORDER-COLLAPSE:collapse;TABLE-LAYOUT:fixed;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none"
+                                       class=xdLayout>
                                   <colgroup>
-                                    <col style=WIDTH:134px
-                                         width=134>
-                                    <col style=WIDTH:8px
-                                         width=8>
-                                    <col style=WIDTH:99px
-                                         width=99>
-                                    <col style=WIDTH:97px
-                                         width=97>
+                                    <col width=358
+                                         style=WIDTH:358px>
                                   <tbody>
                                     <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>申请日期</font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_4ec87ab7-4b44-46d8-b867-65c9d6d8b11f_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id="applicationDate">
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            号</font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_dea64ec2-edce-44d0-a4f1-533d5672f450_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id="stuid">
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            名</font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_6308f379-8343-471a-946d-ccea05d052da_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id="name">
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            别<font size=3
-                                                  color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_c1981170-4c56-4bf2-b742-f9ff9111942b_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id="sex">
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>联系方式<font size=3
-                                                  color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_e56f9fb0-1c1d-4cf6-8aeb-d97c1bf8e3e8_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=phone>
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>所在院系</font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_7f2b2123-2cc6-44ea-9e75-43b8ceede491_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=college>
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            业<font size=3
-                                                  color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_c55d71c4-a363-4dda-8f18-2782eca9eff8_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=major>
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>班&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            级<font size=3
-                                                  color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_7bb37dcf-2dc3-49df-97e9-fff990c9b6b2_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=clazz>
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>身份证号<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_bf00f257-9ca4-4d09-9d96-5bd3b4ffd92a_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=idcard>
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>辅导员姓名<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_935fbb90-6346-4c89-971d-9244af2cbdc5_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=counselor>
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr class=fake>
-                                      <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                                          colspan=2
-                                          class=sf-hidden>
-                                      <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                                          colspan=2
-                                          class=sf-hidden>
-                                    <tr style=display:none
-                                        dynamic-invisible=true>
-                                      <!-- <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3></font>&nbsp;
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center></div> -->
-                                      <!-- <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt;BORDER-RIGHT:#0070c0 1pt;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3></font>&nbsp;
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3></font>&nbsp;
-                                        </div> -->
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>选择类型<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=left>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_4c6ba037-b05d-4278-b1f1-8b2ddf5f524e_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 size=1
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=type>
-                                              事假
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>是否离宁<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div><input type=radio
-                                                 value=1
-                                                 style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑"
-                                                 name=fieldSFLN
-                                                 class="xdBehavior_Boolean infoplus_control infoplus_radioControl infoplus_readonly disabled infoplus_fieldChange"
-                                                 title
-                                                 id=V0_CTRL242
-                                                 readonly
-                                                 disabled><label for=V0_CTRL242
-                                                 class=infoplus_radioLabel>
-                                            <font size=3>是</font>
-                                          </label></div>
-                                        <div><input type=radio
-                                                 value=2
-                                                 style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑"
-                                                 name=fieldSFLN
-                                                 class="xdBehavior_Boolean infoplus_control infoplus_radioControl infoplus_readonly disabled checked infoplus_fieldChange"
-                                                 title
-                                                 id=V0_CTRL243
-                                                 readonly
-                                                 disabled
-                                                 checked><label for=V0_CTRL243
-                                                 class=infoplus_radioLabel>
-                                            <font size=3>否</font>
-                                          </label></div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          rowspan=3
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>去向目的地<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_c34e11cb-f2d8-49d7-b597-226c62b084bd_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=label_c34e11cb-f2d8-49d7-b597-226c62b084bd>
-                                              江苏省
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_b6d9f7cb-b4ee-4ba3-b8b1-152ac84df10a_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=label_b6d9f7cb-b4ee-4ba3-b8b1-152ac84df10a>
-                                              南京市
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_c4f7d73b-b430-49bc-91cf-8553a634c040_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=dest>
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>请假事由<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_f12b5156-6ff4-469e-a695-dd1161ebca30_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=reason>
-
-                                            </div>
-                                          </div>
-                                        </div>
-
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>离校具体时间<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
                                       <td
-                                          style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2">
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_5a3085dc-2961-4262-8ac7-3db931363d41_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=startDate>
-
-                                            </div>
-                                          </div>
+                                          style="BORDER-TOP:#d8d8d8 1pt solid;BORDER-RIGHT:#d8d8d8 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#d8d8d8 1pt solid;PADDING-BOTTOM:10px;PADDING-TOP:10px;PADDING-LEFT:10px;BORDER-LEFT:#d8d8d8 1pt solid;PADDING-RIGHT:10px;BACKGROUND-COLOR:#ffffff">
+                                        <div>
+                                          <font size=4><strong>
+                                              <div class=xdlabel></div>
+                                            </strong></font>
                                         </div>
-                                      <td
-                                          style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2">
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_4db001dc-e0a3-4fab-8cab-25c4e4f05df2_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=startTime>
-
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>返校具体时间<font color=#ff0000>*</font>
-                                          </font>
-                                        </div>
-                                      <td
-                                          style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2">
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_ebbfe818-9c22-468a-9521-3b4e47668919_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=endDate>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      <td
-                                          style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2">
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_bd228db4-bc58-4928-a9b7-4415fa14d188_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=endTime>
-                                            </div>
-                                          </div>
-                                        </div>
-
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>请假天数</font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <div class="infoplus_labelControlContainer inline"
-                                               id=label_491ebcad-e61b-4b97-9d3b-13722a9e409f_Container>
-                                            <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                                                 title
-                                                 class="infoplus_control infoplus_labelControl inline"
-                                                 id=label_491ebcad-e61b-4b97-9d3b-13722a9e409f>
-                                              1
-                                            </div>
-                                          </div>
-                                        </div>
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=4>
-                                        <div align=left>
-                                          <font color=#ff0000>说明：进出校验证时间须在离校具体时间~返校具体时间之间；否则验证不通过。</font>
-                                        </div>
+                                        <font size=4><strong>
+                                            <div align=left>
+                                              <div class="infoplus_iframeControlContainer infoplus_readonly"
+                                                   id=iframe_1d6997c5-c2e3-4407-a82f-69d0157d63ce_Container>
 
 
-                                    <tr>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div align=center>
-                                          <font size=3>附&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            件</font>
-                                        </div>
-                                      <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                                          colspan=2>
-                                        <div id=groupFJList
-                                             name=groupFJList
-                                             class=infoplus_repeatParentElement>
-                                          <div class="xdRepeatingSection xdRepeating infoplus_repeatingSection"
-                                               style=width:100%>
-                                            <div widgetindex=0
-                                                 style=MARGIN-BOTTOM:0px;WIDTH:100%
-                                                 title
-                                                 align=left>
-                                              <div align=left>
-                                                <table style="WORD-WRAP:break-word;BORDER-TOP:medium none;BORDER-RIGHT:medium none;WIDTH:182px;BORDER-COLLAPSE:collapse;TABLE-LAYOUT:fixed;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none"
-                                                       class=xdLayout
-                                                       bordercolor=buttontext
-                                                       border=1>
-                                                  <colgroup>
-                                                    <col style=WIDTH:182px
-                                                         width=182>
-                                                  <tbody>
-                                                    <tr>
-                                                      <td
-                                                          style=VERTICAL-ALIGN:middle;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;PADDING-RIGHT:10px>
-                                                        <div align=left>
-                                                          <div style='font-size:small;font-family:"PingFang SC",微软雅黑;width:100%'
-                                                               title
-                                                               class="infoplus_control infoplus_fileControl"
-                                                               id=file_2f1e34bc-dc77-4c5d-ab2f-ea8b79269913>
-                                                            <!-- <div class=display>
-                                                              <a target=_blank
-                                                                 href="https://cdn.lwqwq.com/pic/338886_dOfhnpC7.webp"
-                                                                 class=infoplus_fileControl_link
-                                                                 title="Screenshot_20220309-151429_微信.png 创建于2022-03-09 15:14:59">
-                                                                <div class=uploadFileName
-                                                                     style=max-width:75px>
+                                                <iframe scrolling=auto
+                                                        style=HEIGHT:600px;WIDTH:100%
+                                                        class="infoplus_control infoplus_iframeControl infoplus_readonly"
+                                                        id="qrcode"></iframe>
 
-                                                                </div>
-                                                                <div class=uploadFileSize>
-                                                                  (427.8K)
-                                                                </div>
-                                                              </a>
-                                                              <div id=c06d9bff-9889-49cc-bd7b-bd24c1b96006
-                                                                   class="infoplus_popMenu top left"
-                                                                   style=display:none></div> -->
-                                                          </div>
-                                                        </div>
                                               </div>
+                                            </div>
+                                          </strong></font>
                                 </table>
                               </div>
+                      </table>
                     </div>
-                    <div class="infoplus_repeatSectionExpandButton infoplus_repeatSection_shrink opacity5"
-                         title=收起
-                         style=display:none></div>
+                    <div align=center></div>
                   </div>
                 </div>
-                <tr>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=2>
-                    <div align=center>
-                      <font size=3>请假期间有无任课教师<font color=#ff0000>*</font>
-                      </font>
-                    </div>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=2>
-                    <div><input type=radio
-                             value=1
-                             style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑"
-                             name=fieldYWRKjs
-                             class="xdBehavior_Boolean infoplus_control infoplus_radioControl infoplus_readonly disabled infoplus_fieldChange"
-                             title
-                             id=V0_CTRL253
-                             readonly
-                             disabled><label for=V0_CTRL253
-                             class=infoplus_radioLabel>
-                        <font size=3>有</font>
-                      </label></div>
-                    <div><input type=radio
-                             value=2
-                             style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑"
-                             name=fieldYWRKjs
-                             class="xdBehavior_Boolean infoplus_control infoplus_radioControl infoplus_readonly disabled checked infoplus_fieldChange"
-                             title
-                             id=V0_CTRL254
-                             readonly
-                             disabled
-                             checked><label for=V0_CTRL254
-                             class=infoplus_radioLabel>
-                        <font size=3>无</font>
-                      </label></div>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=2
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=2
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=2>
-                    <div align=center>
-                      <font size=3>郑重提醒</font>
-                    </div>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=2>
-                    <div align=left>
-                      <font size=3>请假期间请注意生命财产安全，责任自负！</font>
-                    </div>
-                <tr>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=2>
-                    <div align=center></div>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=2>
-                    <div></div>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class="fake sf-hidden">
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      rowspan=2>
-                    <div align=center>
-                      <font size=3>辅导员意见</font>
-                    </div>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=3>
-                    <div align=left>
-                      <div><input type=radio
-                               value=1
-                               style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑"
-                               name=fieldSF
-                               class="xdBehavior_Boolean infoplus_control infoplus_radioControl infoplus_readonly disabled checked infoplus_fieldChange"
-                               title
-                               id=V0_CTRL231
-                               readonly
-                               disabled
-                               checked><label for=V0_CTRL231
-                               class=infoplus_radioLabel>
-                          <font size=3>同意</font>
-                        </label></div>
-                      <div><input type=radio
-                               value=2
-                               style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑"
-                               name=fieldSF
-                               class="xdBehavior_Boolean infoplus_control infoplus_radioControl infoplus_readonly disabled infoplus_fieldChange"
-                               title
-                               id=V0_CTRL232
-                               readonly
-                               disabled><label for=V0_CTRL232
-                               class=infoplus_radioLabel>
-                          <font size=3>退回</font>
-                        </label></div>
-                      <div><input type=radio
-                               value=3
-                               style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑"
-                               name=fieldSF
-                               class="xdBehavior_Boolean infoplus_control infoplus_radioControl infoplus_readonly disabled infoplus_fieldChange"
-                               title
-                               id=V0_CTRL233
-                               readonly
-                               disabled><label for=V0_CTRL233
-                               class=infoplus_radioLabel>
-                          <font size=3>不同意</font>
-                        </label></div>
-                    </div>
-                <tr>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=3>
-                    <div align=left>
-                      <div class=infoplus_labelControlContainer
-                           id=label_d01ec388-9167-4ee0-99c5-a3c1b5a6796f_Container>
-                        <div style='font-size:small;font-family:"PingFang SC",微软雅黑;width:100%;min-height:50px'
-                             title
-                             class="infoplus_control infoplus_labelControl"
-                             id=label_d01ec388-9167-4ee0-99c5-a3c1b5a6796f>
-                          外出期间请做好个人防护，注意安全
-                        </div>
-                      </div>
-                    </div>
-                <tr>
-                  <td
-                      style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2">
-                    <div align=center>
-                      <font size=3>审批人</font>
-                    </div>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=3>
-                    <div text-align="right">
-                      <div class="infoplus_labelControlContainer inline"
-                           id=checkman>
-                        <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                             title
-                             class="infoplus_control infoplus_labelControl inline"
-                             id=counselor2>
-
-                        </div>
-                      </div>
-                    </div>
-                <tr>
-                  <td
-                      style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2">
-                    <div text-align="right">
-                      <font size=3>审批时间</font>
-                    </div>
-                  <td style="BORDER-TOP:#0070c0 1pt solid;BORDER-RIGHT:#0070c0 1pt solid;VERTICAL-ALIGN:middle;BORDER-BOTTOM:#0070c0 1pt solid;PADDING-BOTTOM:5px;PADDING-TOP:5px;PADDING-LEFT:5px;BORDER-LEFT:#0070c0 1pt solid;PADDING-RIGHT:5px;BACKGROUND-COLOR:#f2f2f2"
-                      colspan=3>
-                    <div text-align="right">
-                      <div class="infoplus_labelControlContainer inline"
-                           id=label_31c4e818-1337-4179-b82c-3cc7081507dd_Container>
-                        <div style="FONT-SIZE:small;font-family:'PingFang SC',微软雅黑;WIDTH:100%"
-                             title
-                             class="infoplus_control infoplus_labelControl inline"
-                             id=approveDate>
-                        </div>
-                      </div>
-                    </div>
-                <tr>
-                  <td
-                      style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2">
-                    <div align="center">
-                      <font size="3">苏康码</font>
-                    </div>
-                  </td>
-                  <td style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2"
-                      colspan="3">
-                    <div align="center">
-                      <div style="font-size: small; font-family: &quot;PingFang SC&quot;, 微软雅黑;"
-                           title=""
-                           class="infoplus_control infoplus_pictureControl infoplus_readonly"
-                           id="picture_90a404d1-fc06-4459-8751-26f41c64f66c">
-                        <div class="displayDiv"
-                             id="Alipay"
-                             style="width: 47px; height: 100px;"><a data-lightbox="722774c5-b9a7-4755-b04c-a435825be787"
-                             href="./zfb.jpg"><img border="0"
-                                 class="preview"
-                                 style="display: none;"><img border="0"
-                                 alt="Screenshot_20220720-154240_Alipay.jpg"
-                                 src="./zfb.jpg"
-                                 style="margin-top: 0px; margin-left: 0px;"
-                                 width="47"
-                                 height="100"></a>
-                          <div class="maskDiv"
-                               style="display: none; width: 47px; height: 100px;"></div>
-                        </div><input type="hidden"
-                               id="V0_CTRL275"
-                               name="fieldXJSKM"
-                               value="d34fa628-6af5-4a78-b27b-16db0273161c">
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                      style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2">
-                    <div align="center">
-                      <font size="3">行程码</font>
-                    </div>
-                  </td>
-                  <td style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2"
-                      colspan="3">
-                    <div align="center">
-                      <div style="font-size: small; font-family: &quot;PingFang SC&quot;, 微软雅黑;"
-                           title=""
-                           class="infoplus_control infoplus_pictureControl infoplus_readonly"
-                           id="picture_42122d59-441a-4bf1-a38b-c3c31bc0c353">
-                        <div class="displayDiv"
-                             id="wechat"
-                             style="width: 47px; height: 100px;"><a data-lightbox="2a1fdd04-595d-4cf4-99e2-cafe1e9191e7"
-                             href="./wx.jpg"><img border="0"
-                                 class="preview"
-                                 style="display: none;"><img border="0"
-                                 alt="Screenshot_20220720-154144_WeChat.jpg"
-                                 src="./wx.jpg"
-                                 style="margin-top: 0px; margin-left: 0px;"
-                                 width="47"
-                                 height="100"></a>
-                          <div class="maskDiv"
-                               style="display: none; width: 47px; height: 100px;"></div>
-                        </div><input type="hidden"
-                               id="V0_CTRL276"
-                               name="fieldXJXCM"
-                               value="fbe0725d-7706-4b8d-a782-18c662339aea">
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                      style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2">
-                    <div align="center">
-                      <font size="3">24小时内核酸检测</font>
-                    </div>
-                  </td>
-                  <td style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2"
-                      colspan="3">
-                    <div align="center">
-                      <div style="font-size: small; font-family: &quot;PingFang SC&quot;, 微软雅黑;"
-                           title=""
-                           class="infoplus_control infoplus_pictureControl infoplus_readonly"
-                           id="picture_47d76ecc-9924-4b51-8192-dedeedb0c6fd">
-                        <div class="displayDiv"
-                             style="width: 150px; height: 100px; display: none;"><a
-                             data-lightbox="767be60d-b21d-4d62-91af-1146e183d186"><img border="0"
-                                 class="preview"><img border="0"></a>
-                          <div class="maskDiv"
-                               style="display: none; width: 150px; height: 100px;"></div>
-                        </div><input type="hidden"
-                               id="V0_CTRL277"
-                               name="fieldXJHSBG"
-                               value="">
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td
-                      style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2">
-                    <div align="center">
-                      <font size="3">销假人</font>
-                    </div>
-                  </td>
-                  <td style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2"
-                      colspan="3">
-                    <div align="center">
-                      <div class="infoplus_labelControlContainer inline"
-                           id="label_7ebaf0dd-6c4c-4b32-a2f5-706c115c450e_Container">
-                        <div style="FONT-SIZE: small;font-family:'PingFang SC',微软雅黑; WIDTH: 100%;"
-                             title=""
-                             class="infoplus_control infoplus_labelControl inline"
-                             id="ereasename"></div><input type="hidden"
-                               id="V0_CTRL278"
-                               name="fieldXJR"
-                               value="201913890040"
-                               class="infoplus_fieldChange">
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td
-                      style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2">
-                    <div align="center">
-                      <font size="3">销假时间</font>
-                    </div>
-                  </td>
-                  <td style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2"
-                      colspan="3">
-                    <div align="center">
-                      <div class="infoplus_labelControlContainer inline"
-                           id="label_fb476471-3c7a-40a7-85f5-8cb6f8110d14_Container">
-                        <div style="FONT-SIZE: small;font-family:'PingFang SC',微软雅黑; WIDTH: 100%;"
-                             title=""
-                             class="infoplus_control infoplus_labelControl inline"
-                             id="erasetime"></div>
-                        <input type="hidden"
-                               id="V0_CTRL279"
-                               name="fieldXJSJ"
-                               value="1658246400"
-                               class="infoplus_fieldChange">
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="BORDER-TOP: #0070c0 1pt solid; BORDER-RIGHT: #0070c0 1pt solid; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #0070c0 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #0070c0 1pt solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f2f2f2"
-                      colspan="4">
-                    <div align="center">
-                      <font size="3"
-                            color="#ff0000"><strong>提示：请在销假时间当天进校，超过销假时间则无法进校。<input type="hidden"
-                                 style="HEIGHT: 22px; WIDTH: 7px"
-                                 class="infoplus_control infoplus_hiddenControl"
-                                 title=""
-                                 id="V0_CTRL5"
-                                 name="fieldXJTS"
-                                 readonly=""
-                                 value=""></strong></font>
-                    </div>
-                  </td>
-                </tr>
-
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class="fake sf-hidden">
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class="fake sf-hidden">
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                <tr class=fake>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      class=sf-hidden>
-                  <td style=border-color:rgb(0,112,192);border-style:none;border-width:0px;vertical-align:middle;padding:0px;background-color:rgb(242,242,242)
-                      colspan=3
-                      class=sf-hidden>
-                <tr style=display:none
-                    dynamic-invisible=true>
-                  </table>
               </div>
-              <div></div>
-              </table>
+              <div id=variables_container></div>
             </div>
-            <div align=center></div>
+          </div>
+
+          <div id=form_remark_holder
+               class="form_remark_holder shadow round-corner"
+               align=center
+               style=width:394px;display:block>
+            <ul>
+              <li class=remark_item
+                  style=display:block;border-bottom:none>
+                <div class=form_remark_title><span class=color_b2><span class=color_o1><b>您(<span
+                              id="name"></span>)</b></span> 正在填写/办理<b id="banli"></b></span>
+                </div>
+            </ul>
           </div>
         </div>
       </div>
-      <div id=variables_container></div>
-  </div>
-  </div>
-
-  <div id=form_remark_holder
-       class="form_remark_holder shadow round-corner"
-       style=width:100vw;display:block
-       align=center>
-    <ul>
-      <li class=remark_item
-          style="display:block;border-bottom:medium none">
-        <div class=form_remark_title><span class=color_b2><span><b>你（</b><b id="counselor3"></b><b>）</b></span>
-            填写/办理了<b><a target=_blank
-                 title=查看该环节表单的快照
-                 href="#">辅导员审核意见</a></b>(<span class=color_b3><b>提交</b></span>)</span><span class=form_remark_time
-                id="formDate"></span>
+    </form>
+    <div id=master_footer>
+      <div id=div_footer_copy_containers>
+        <div style=height:1px;background-color:#999999></div>
+        <div style=height:1px;background-color:#FFFFFF></div>
+        <div id=div_footer_copy_content><span class=copyright>©</span> 2009 - 2021. 南京信息工程大学(nuist.edu.cn), All
+          rights reserved. Version 20211117-095344
         </div>
-      </li>
-      <div class=lastMore>
-        <div style=height:0px><span class=moreHistory
-                title=点击展开历史><i class=i-icon-angle-double-down></i> 点击展开3个较早历史</span></div>
-      </div>
-      <li class=remark_item
-          style=display:none>
-      <li class=remark_item
-          style=display:none>
-      <li class=remark_item
-          style="display:none;border-bottom:medium none">
-    </ul>
-  </div>
-  </div>
-  </div>
-  </form>
-  <div id=master_footer>
-    <div id=div_footer_copy_containers>
-      <div style=height:1px;background-color:#999999></div>
-      <div style=height:1px;background-color:#FFFFFF></div>
-      <div id=div_footer_copy_content><span class=copyright>©</span> 2009 - 2022. 南京信息工程大学(nuist.edu.cn), All
-        rights reserved. Version 20211117-095344
       </div>
     </div>
   </div>
-  </div>
 
-  <div id=div_invoice
-       class=sf-hidden></div>
-  <iframe id=alive
-          style=display:none;border:0></iframe>
-  <div id=infoplus_iframe_flyout_div
-       class="round-corner sf-hidden"></div>
 
+  <script src="jquery.min.js"></script>
   <script>
-    //topbutton
     function getRandomIntInclusive(min, max) {
       min = Math.ceil(min)
       max = Math.floor(max)
       return Math.floor(Math.random() * (max - min + 1)) + min //含最大值，含最小值
     }
 
-    $('#title_icon').click(function () {
-      let menu = $('#nav_menu');
-      console.log(menu.attr('style'));
-      if (menu.attr('style') == "display:none;top:94px" || menu.attr('style') == "display:none") {
-        menu.attr({
-          "style": "display: block;;top:94px"
-        })
-      }
-      else {
-        menu.attr({
-          "style": "display:none"
-        })
-      }
-    })
-
-    $('#command_bar_title_icon').click(function () {
-      let menu = $('#nav_menu');
-      console.log(menu.attr('style'));
-      if (menu.attr('style') == "display:none;top:94px" || menu.attr('style') == "display:none") {
-        // if (menu.attr('style') == "display:none;top:94px") {
-        menu.attr({
-          "style": "display: block;;top:94px"
-        })
-      }
-      else {
-        menu.attr({
-          "style": "display:none"
-        })
-      }
-    })
-
-
-
-
-    //加载界面
-    setTimeout(() => {
-      $('#div_loader_progress_percent').css('right', '99%')
-      $('#progress').text(1)
-    }, 100)
-    setTimeout(() => {
-      $('#div_loader_progress_percent').css('right', '98%')
-      $('#progress').text(2)
-    }, 200)
-    setTimeout(() => {
-      $('#div_loader_progress_percent').css('right', '80%')
-      $('#progress').text(20)
-    }, 400)
-    for (let i = 0; i < 11; i++) {
-      setTimeout(() => {
-        $('#div_loader_progress_percent').css('right', (30 - i) + '%')
-        $('#progress').text(70 + i)
-      }, 600 + i * 50)
-    }
-    setTimeout(() => {
-      $('#div_loader_progress_percent').css('right', '0%')
-      $('#progressText').text('加载完成(100%)')
-    }, 1200)
-    setTimeout(() => {
-      $('#div_loader_progress').css('height', '0px').css('opacity', 0.5)
-    }, 1300)
-    setTimeout(() => {
-      $('#div_loader').hide()
-      $('#div_render_container').show()
-    }, 1500)
-
-    $(window).scroll(function () {
-
-      let top = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-      // let top = document.documentElement.scrollTop;
-      let topele = $('#header_holder')
-      let itemele = $('#command_bar_title_icon')
-      let topbutton = $('#FormCommandGoTop')
-      if (top <= 45) {
-        topbutton.attr({
-          "style": "display: none;"
-        })
-        itemele.attr({
-          "style": "display: none;"
-        })
-        topele.attr({ "style": "top:-" + top + "px ;z-index:3", })
-
-      }
-      else if (top > 45) {
-        topbutton.attr({
-          "style": "display: none;"
-        })
-        itemele.attr({
-          "style": "display: block;",
-        })
-
-        topele.attr({ "style": "top:-46px ;z-index:3" })
-      }
-      if (top > 350) {
-        topbutton.removeAttr('style')
-      }
-
-    });
-
-    $('.i-icon-publish').click(function (event) {
-      event.preventDefault();
-      var currentLocation = document.documentElement.scrollTop;// 获取当前滚动条的位置
-      var task = setInterval(function () {  // setInterval循环周期调用
-        if (currentLocation > 0) {
-          window.scrollTo(0, currentLocation);
-          currentLocation -= 10  // 相比上次位置减10，根据自己需要的速度修改
-        } else {
-          window.scrollTo(0, 0);
-          clearInterval(task)  //回到顶部后，清除已执行的的循环事件
-        }
-      }, 1)
-    })
-
-    Date.prototype.format = function (fmt) {
-      var o = {
-        'M+': this.getMonth() + 1, //月份
-        'd+': this.getDate(), //日
-        'h+': this.getHours(), //小时
-        'm+': this.getMinutes(), //分
-        's+': this.getSeconds(), //秒
-        'q+': Math.floor((this.getMonth() + 3) / 3), //季度
-        S: this.getMilliseconds(), //毫秒
-      }
-      if (/(y+)/.test(fmt)) {
-        fmt = fmt.replace(
-          RegExp.$1,
-          (this.getFullYear() + '').substr(4 - RegExp.$1.length),
-        )
-      }
-      for (var k in o) {
-        if (new RegExp('(' + k + ')').test(fmt)) {
-          fmt = fmt.replace(
-            RegExp.$1,
-            RegExp.$1.length === 1 ? o[k] : ('00' + o[k]).substr(('' + o[k]).length),
-          )
-        }
-      }
-      return fmt
-    }
-
-    const date = new Date()
-    date.setMinutes(0)
-    date.setHours(date.getHours() - 2)
-    const startDate = date.format('yyyy-MM-dd')
-    const startTime = date.format('hh:mm')
-    date.setHours(date.getHours() + 5)
-    const endDate = date.format('yyyy-MM-dd')
-    const endTime = date.format('hh:mm')
-    const erasetime = date.format('MM-dd')
     const params = new URLSearchParams(location.search)
 
-    const waterNum = getRandomIntInclusive(500000, 700000)
-    const stuid = getRandomIntInclusive(201900690078, 202000690078)
+    const isJx = params.get('isJx')
 
-    $('#applicationDate,#approveDate,#formDate').text(startDate)
-    $('#name,#ereasename').text(params.get('name'))
-    $('#counselor,#counselor2').text(params.get('counselor'))
-    $('#startDate').text(startDate)
-    $('#startTime').text(startTime)
-    $('#endDate').text(endDate)
-    $('#endTime').text(endTime)
-    $('#erasetime').text(erasetime)
-
-    $('#idcard').text(getId_no())
-    $('#counselor,#counselor2').text(getName())
-    $('#phone').text(getMoble())
-
-    if (params.get('sex') == 'm') {
-      $('#sex').text('男（male）')
+    $('#qrcode').attr('src', 'qrcode.html' + location.search)
+    $('.water').text(getRandomIntInclusive(2333333, 2666666))
+    $('#name').text(params.get('name'))
+    if (isJx) {
+      $('.title').text('查看销假二维码:查看进校二维码')
+      $('#banli').text('查看进校二维码')
+      $('.jx').show()
+      document.title = '查看进校二维码 - 查看销假二维码'
+      $('#logo').attr('style', 'HEIGHT: 57px; WIDTH: 221px')
     }
     else {
-      $('#sex').text('女（female）')
+      $('.title').text('查看出校二维码:查看出校二维码')
+      $('#banli').text('查看出校二维码')
+      $('#noAction').show()
+      document.title = '查看出校二维码 - 查看出校二维码'
     }
-
-    if (params.get('stuid')) {
-      $('#stuid').text(params.get('stuid'))
-    }
-    else {
-      $('#stuid').text(stuid)
-    }
-
-    if (params.get('name')) {
-      $('#name,#ereasename,#counselor3').text(params.get('name'))
-    }
-    else {
-      $('#name,#ereasename,#counselor3').text((getName()))
-    }
-
-    $('.waterNum').text(waterNum)
-
-    $('#dest').text("浦口区")
-    $('#reason').text('医院看病')
-    $('#college').text('大气科学学院')
-    $('#major').text('大气科学')
-    $('#clazz').text('19级2班')
-
-    // 生成随机姓名
-    function getName() {
-      var familyNames = new Array(
-        "赵", "钱", "孙", "李", "周", "吴", "郑", "王", "冯", "陈",
-        "褚", "卫", "蒋", "沈", "韩", "杨", "朱", "秦", "尤", "许",
-        "何", "吕", "施", "张", "孔", "曹", "严", "华", "金", "魏",
-        "陶", "姜", "戚", "谢", "邹", "喻", "柏", "水", "窦", "章",
-        "云", "苏", "潘", "葛", "奚", "范", "彭", "郎", "鲁", "韦",
-        "昌", "马", "苗", "凤", "花", "方", "俞", "任", "袁", "柳",
-        "酆", "鲍", "史", "唐", "费", "廉", "岑", "薛", "雷", "贺",
-        "倪", "汤", "滕", "殷", "罗", "毕", "郝", "邬", "安", "常",
-        "乐", "于", "时", "傅", "皮", "卞", "齐", "康", "伍", "余",
-        "元", "卜", "顾", "孟", "平", "黄", "和", "穆", "萧", "尹"
-      );
-      var givenNames = new Array(
-        "子璇", "淼", "国栋", "夫子", "瑞堂", "甜", "敏", "尚", "国贤", "贺祥", "晨涛",
-        "昊轩", "易轩", "益辰", "益帆", "益冉", "瑾春", "瑾昆", "春齐", "杨", "文昊",
-        "东东", "雄霖", "浩晨", "熙涵", "溶溶", "冰枫", "欣欣", "宜豪", "欣慧", "建政",
-        "美欣", "淑慧", "文轩", "文杰", "欣源", "忠林", "榕润", "欣汝", "慧嘉", "新建",
-        "建林", "亦菲", "林", "冰洁", "佳欣", "涵涵", "禹辰", "淳美", "泽惠", "伟洋",
-        "涵越", "润丽", "翔", "淑华", "晶莹", "凌晶", "苒溪", "雨涵", "嘉怡", "佳毅",
-        "子辰", "佳琪", "紫轩", "瑞辰", "昕蕊", "萌", "明远", "欣宜", "泽远", "欣怡",
-        "佳怡", "佳惠", "晨茜", "晨璐", "运昊", "汝鑫", "淑君", "晶滢", "润莎", "榕汕",
-        "佳钰", "佳玉", "晓庆", "一鸣", "语晨", "添池", "添昊", "雨泽", "雅晗", "雅涵",
-        "清妍", "诗悦", "嘉乐", "晨涵", "天赫", "玥傲", "佳昊", "天昊", "萌萌", "若萌"
-      );
-
-      var i = parseInt(10 * Math.random()) * 10 + parseInt(10 * Math.random());
-      var familyName = familyNames[i];
-
-      var j = parseInt(10 * Math.random()) * 10 + parseInt(10 * Math.random());
-      var givenName = givenNames[i];
-      return familyName + givenName;
-    }
-
-    //生成随机手机号
-    function getMoble() {
-      var prefixArray = new Array("130", "131", "132", "133", "135", "137", "138", "170", "187", "189");
-      var i = parseInt(10 * Math.random());
-      var prefix = prefixArray[i];
-
-      for (var j = 0; j < 8; j++) {
-        prefix = prefix + Math.floor(Math.random() * 10);
-      }
-      return prefix;
-    }
-
-    // 生成随机身份证号
-    function getId_no() {
-      var coefficientArray = ["7", "9", "10", "5", "8", "4", "2", "1", "6", "3", "7", "9", "10", "5", "8", "4", "2"];// 加权因子
-      var lastNumberArray = ["1", "0", "X", "9", "8", "7", "6", "5", "4", "3", "2"];// 校验码
-      var address = "420101"; // 住址
-      var birthday = "19810101"; // 生日
-      var s = Math.floor(Math.random() * 10).toString() + Math.floor(Math.random() * 10).toString() + Math.floor(Math.random() * 10).toString();
-      var array = (address + birthday + s).split("");
-      var total = 0;
-      for (i in array) {
-        total = total + parseInt(array[i]) * parseInt(coefficientArray[i]);
-      }
-      var lastNumber = lastNumberArray[parseInt(total % 11)];
-      var id_no_String = address + birthday + s + lastNumber;
-      return id_no_String;
-
-    }
-
   </script>
-
-</body>
-
-</html>
