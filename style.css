@@ -1,6 +1,7 @@
 /* 小动画 */
 #command_bar_title_icon {
-  animation: myAnimation 0.1s linear;
+  animation: myAnimation .3s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes myAnimation {
