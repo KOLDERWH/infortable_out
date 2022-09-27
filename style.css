@@ -1,3 +1,19 @@
+/* 小动画 */
+#command_bar_title_icon {
+  animation: myAnimation 0.1s linear;
+}
+
+@keyframes myAnimation {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+/* 开头动画 */
 #div_loader_content {
   position: fixed;
   margin-top: -10px;
